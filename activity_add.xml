@@ -7,7 +7,7 @@
     tools:context=".Add">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/amountText"
         android:layout_width="368dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -31,7 +31,7 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/amountText"
         app:layout_constraintVertical_bias="0.048">
 
         <RadioButton
@@ -46,7 +46,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/radioButtonNeg"
-            app:layout_constraintTop_toBottomOf="@+id/editText"
+            app:layout_constraintTop_toBottomOf="@+id/amountText"
             app:layout_constraintVertical_bias="0.13999999" />
 
         <RadioButton
@@ -61,12 +61,12 @@
             app:layout_constraintEnd_toStartOf="@+id/radioButtonPos"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText"
+            app:layout_constraintTop_toBottomOf="@+id/amountText"
             app:layout_constraintVertical_bias="0.13999999" />
     </RadioGroup>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/saveChangesButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"
