@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/Amount_of_Money"
-        android:inputType="number"
+        android:inputType="number|numberSigned"
         android:selectAllOnFocus="true"
         android:textAlignment="center"
         android:textSize="20sp"
