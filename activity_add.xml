@@ -133,7 +133,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.73"
-        app:srcCompat="@drawable/restaurant3" />
+        app:srcCompat="@drawable/restaurant" />
 
     <ImageView
         android:id="@+id/Gas"
@@ -147,7 +147,7 @@
         app:layout_constraintStart_toEndOf="@+id/Restaurant"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.731"
-        app:srcCompat="@drawable/gas3" />
+        app:srcCompat="@drawable/gas" />
 
     <ImageView
         android:id="@+id/Cafe"
@@ -161,7 +161,7 @@
         app:layout_constraintStart_toEndOf="@+id/Gas"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.73"
-        app:srcCompat="@drawable/coffee3" />
+        app:srcCompat="@drawable/coffee" />
 
     <ImageView
         android:id="@+id/Entertainment"
