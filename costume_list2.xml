@@ -74,7 +74,6 @@
             android:visibility="invisible"/>
 
         <TextView
-            android:id="@+id/textView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
